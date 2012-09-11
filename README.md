@@ -11,9 +11,10 @@ It then runs all remaining .css, .js and .json files through the YUI Compressor.
 2. Select "Add build phase" in the lower right corner.
 3. Select "Add run script"
 4. Replace the text "Type a script or drag a script file from your workspace" with the following:
-
+`
 	cd "$PROJECT_DIR/scripts"
 	./ios_build.sh
+`
 
 ### Dependencies ###
 
